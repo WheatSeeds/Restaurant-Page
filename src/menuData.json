@@ -1,0 +1,187 @@
+{
+    "Meat":[
+        {
+            "title": "Beef Stroganoff",
+            "id": "",
+            "photo": "",
+            "description": "Tender strips of beef sautéed with onions and mushrooms in a creamy white wine and sour cream sauce, served over buttered egg noodles or rice. This classic Russian dish is rich and flavorful, with a comforting blend of textures.",
+            "price": "$22"
+        },
+        {
+            "title": "Pork Shashlik",
+            "id": "",
+            "photo": "",
+            "description": "Marinated chunks of pork, skewered and grilled to perfection. Served with a side of fresh vegetables, pita bread, and a tangy garlic sauce. This dish is ideal for those who enjoy smoky, savory flavors with a hint of spice.",
+            "price": "$20"
+        },
+        {
+            "title": "Pelmeni",
+            "id": "",
+            "photo": "",
+            "description": "Traditional Russian dumplings filled with a savory mixture of minced beef, pork, and onions, seasoned with spices. These bite-sized dumplings are boiled until tender and served with a dollop of sour cream and a sprinkle of fresh dill. Pelmeni offer a hearty and comforting taste of Russian cuisine, ideal as a satisfying main course or appetizer.",
+            "price": "$16"
+        },
+        {
+            "title": "Chicken Kiev",
+            "id": "",
+            "photo": "",
+            "description": "Breaded and fried chicken breast stuffed with a garlic herb butter, creating a deliciously crispy exterior and a flavorful, buttery interior. Served with mashed potatoes and steamed vegetables, this dish is a classic Russian favorite.",
+            "price": "$21"
+        },
+        {
+            "title": "Veal Cutlet with Mushroom Sauce",
+            "id": "",
+            "photo": "",
+            "description": "A succulent veal cutlet, pan-seared to perfection and topped with a rich mushroom sauce made from sautéed mushrooms, onions, and a splash of white wine. Accompanied by creamy mashed potatoes and steamed asparagus, this dish offers a delightful balance of tender meat and savory sauce.",
+            "price": "$26"
+        }
+    ],
+    "Soups":[
+        {
+            "title": "Borscht",
+            "id": "",
+            "photo": "",
+            "description": "A vibrant beetroot soup with a hearty blend of cabbage, potatoes, and carrots, enriched with tender beef chunks. Served hot with a dollop of sour cream and a sprinkle of fresh dill. This traditional dish offers a unique balance of earthy and tangy flavors.",
+            "price": "$15"
+        },
+        {
+            "title": "Soljanka",
+            "id": "",
+            "photo": "",
+            "description": "A robust and tangy soup with a medley of smoked meats, pickles, olives, and a tomato base. Garnished with fresh herbs and a slice of lemon, this soup provides a complex, bold flavor profile that is both hearty and refreshing.",
+            "price": "$16"
+        },
+        {
+            "title": "Ukha",
+            "id": "",
+            "photo": "",
+            "description": "A clear fish broth soup featuring tender pieces of white fish, potatoes, carrots, and onions. Flavored with fresh herbs and a hint of lemon, Ukha is a light yet flavorful dish that captures the essence of traditional Russian cuisine.",
+            "price": "$17"
+        },
+        {
+            "title": "Okroshka",
+            "id": "",
+            "photo": "",
+            "description": "A traditional Russian cold soup made with a refreshing mix of diced vegetables such as cucumbers, radishes, and potatoes, combined with cooked meats like ham or sausage. The soup is served in a chilled kvass or kefir base and garnished with fresh dill and green onions. It's a light, tangy, and revitalizing dish, perfect for warm weather.",
+            "price": "$15"
+        },
+        {
+            "title": "Rassolnik",
+            "id": "",
+            "photo": "",
+            "description": "A hearty sour pickle soup with beef or pork, barley, and a mix of vegetables like carrots and potatoes. The addition of pickles gives this soup its distinctive tangy flavor, balanced by the savory meat and hearty barley.",
+            "price": "$16"
+        }
+    ],
+    "Salads":[
+        {
+            "title": "Olivier Salad",
+            "id": "",
+            "photo": "",
+            "description": "A classic Russian salad combining diced potatoes, carrots, pickles, boiled eggs, and tender chunks of chicken or ham, all tossed in a creamy mayonnaise dressing. Garnished with fresh herbs, this salad is a festive favorite known for its rich, satisfying taste.",
+            "price": "$12"
+        },
+        {
+            "title": "Shuba",
+            "id": "",
+            "photo": "",
+            "description": "A layered salad featuring salted herring, finely chopped onions, grated boiled beets, carrots, and potatoes, all mixed with a generous layer of mayonnaise. This colorful and flavorful dish is a traditional Russian favorite, offering a unique blend of sweet, salty, and tangy flavors.",
+            "price": "$14"
+        },
+        {
+            "title": "Vinaigrette",
+            "id": "",
+            "photo": "",
+            "description": "A refreshing Russian salad made with diced beets, potatoes, carrots, pickles, and onions, all tossed in a tangy vinaigrette dressing. This dish is vibrant in color and offers a delightful mix of textures and flavors, perfect as a light yet hearty option.",
+            "price": "$11"
+        },
+        {
+            "title": "Caesar Salad",
+            "id": "",
+            "photo": "",
+            "description": "A twist on the classic Caesar salad, featuring crisp romaine lettuce, grilled chicken breast, crunchy croutons, and shaved Parmesan cheese, all tossed in a tangy Caesar dressing. This salad is both satisfying and refreshing, ideal for a light lunch or dinner.",
+            "price": "$16"
+        },
+        {
+            "title": "Salad with Smoked Salmon",
+            "id": "",
+            "photo": "",
+            "description": "A gourmet salad featuring slices of smoked salmon on a bed of mixed greens, with avocado, cherry tomatoes, cucumbers, and red onions. Tossed with a light lemon-dill dressing, this salad is elegant and full of fresh, delicate flavors.",
+            "price": "$18"
+        }
+    ],
+    "Drinks":[
+        {
+            "title": "Kvas",
+            "id": "",
+            "photo": "",
+            "description": "A traditional Russian fermented beverage made from rye bread, Kvas has a slightly tangy and mildly sweet flavor with a low alcohol content. It's a refreshing and unique drink that pairs well with a variety of Russian dishes.",
+            "price": "$6"
+        },
+        {
+            "title": "Medovukha",
+            "id": "",
+            "photo": "",
+            "description": "A traditional honey-based Russian beverage, Medovukha is mildly alcoholic and has a sweet, aromatic flavor with hints of spices and herbs. It's often served chilled and can be a delightful alternative to more common drinks.",
+            "price": "$8"
+        },
+        {
+            "title": "Vodka",
+            "id": "",
+            "photo": "",
+            "description": "A curated tasting set featuring a selection of premium Russian vodkas, including classic varieties and artisanal options. Each vodka is served with traditional accompaniments such as pickles and rye bread, providing an authentic and immersive experience.",
+            "price": "$30"
+        },
+        {
+            "title": "Mors",
+            "id": "",
+            "photo": "",
+            "description": "A traditional Russian berry drink made from a variety of berries such as lingonberries, cranberries, or raspberries, lightly sweetened and served chilled. Mors is known for its refreshing taste and vibrant color, offering a natural, fruity flavor with a hint of tartness.",
+            "price": "$6"
+        },
+        {
+            "title": "Black tea",
+            "id": "",
+            "photo": "",
+            "description": "Strong and robust black tea, brewed to perfection and served with a slice of lemon or a splash of milk, depending on preference. This classic beverage provides a rich, full-bodied flavor and is a timeless choice for enjoying with meals or as a standalone refreshment.",
+            "price": "$5"
+        }
+    ],
+    "Desserts":[
+        {
+            "title": "Blini",
+            "id": "",
+            "photo": "",
+            "description": "Traditional Russian blini (thin pancakes) served with a generous dollop of sweet cream and a mix of fresh berries such as strawberries, blueberries, and raspberries. Lightly dusted with powdered sugar, this dish is a delightful blend of textures and flavors.",
+            "price": "$12"
+        },
+        {
+            "title": "Medovik",
+            "id": "",
+            "photo": "",
+            "description": "A classic layered honey cake with a rich, creamy filling made from a blend of honey, sweetened condensed milk, and butter. The cake layers are soft and moist, with a subtle honey flavor that pairs beautifully with a cup of tea or coffee.",
+            "price": "$14"
+        },
+        {
+            "title": "Syrniki",
+            "id": "",
+            "photo": "",
+            "description": "Soft and fluffy cheese pancakes made from tvorog, served with a side of fruit preserves and a dollop of sour cream. These sweet, slightly tangy pancakes are perfect for a comforting dessert.",
+            "price": "$11"
+        },
+        {
+            "title": "Sharlotka",
+            "id": "",
+            "photo": "",
+            "description": "A traditional Russian apple pie with a buttery, flaky crust and a sweet, spiced apple filling. Often served warm with a scoop of vanilla ice cream or a drizzle of caramel sauce, this dessert is both comforting and delicious.",
+            "price": "$13"
+        },
+        {
+            "title": "Cherry Vareniki",
+            "id": "",
+            "photo": "",
+            "description": "Dumplings stuffed with sweet, juicy cherries and lightly boiled until tender. Served warm with a dollop of sour cream or a drizzle of honey. These traditional Russian cherry vareniki are a delightful blend of tart and sweet, offering a comforting and satisfying dessert experience.",
+            "price": "$13"
+        }
+    ]
+}
