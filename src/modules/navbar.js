@@ -1,5 +1,7 @@
 import '../styles/navbar.css'
+import createHtmlElement from './render';
 const navbar = document.createElement('nav');
+
 const nav_options = [
     {Name: 'Menu', id: 'menu'},
     {Name: 'About us', id: 'about'},
@@ -7,10 +9,8 @@ const nav_options = [
 ];
 
 nav_options.forEach((item) => {
-    const option = document.createElement('button');
+    const option = createHtmlElement('button', item.id, 'nav_button')
     navbar.appendChild(option);
-    option.setAttribute('id', item.id);
-    option.setAttribute('class', 'nav_button');
 }
 );
 export default navbar;

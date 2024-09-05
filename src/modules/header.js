@@ -1,6 +1,9 @@
 import '../styles/header.css'
-const header = document.createElement('header');
-const logo = document.createElement('div');
-logo.setAttribute('id', 'logo');
+import createHtmlElement from './render';
+
+
+const header = document.createElement('header')
+const logo = createHtmlElement('div', 'logo', null)
 header.appendChild(logo);
+
 export default header;

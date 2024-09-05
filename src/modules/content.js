@@ -1,14 +1,19 @@
-import menu from '../menuData.js'
+import data from '../menuData.json'
+import createHtmlElement from './render';
 import '../styles/content.css'
+
 const content = document.createElement('main');
-const catalog = document.createElement('div');
-catalog.setAttribute('id', 'catalog_grid');
-menu.forEach((e) => {
-    const card = document.createElement('div');
-    card.setAttribute('id', e.id)
-    card.setAttribute('class', 'category_card')
-    catalog.appendChild(card);
-}
-);
+const catalog = createHtmlElement('div', 'catalog_grid', null)
 content.appendChild(catalog);
+
+
+for (const [nameCategory, arrayProducts] of Object.entries(data)) {
+    const category = createHtmlElement('ul', nameCategory, null)
+    catalog.appendChild(category)
+    for(const product of arrayProducts){
+        const card = createHtmlElement('li', product.title, null)
+        category.appendChild(card);
+    }
+}
+
 export default content;
