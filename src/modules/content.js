@@ -8,10 +8,13 @@ content.appendChild(catalog);
 
 
 for (const [nameCategory, arrayProducts] of Object.entries(data)) {
-    const category = createHtmlElement('ul', nameCategory, null)
-    catalog.appendChild(category)
+    const categoryTitle = createHtmlElement('span', null, 'category_title');
+    const category = createHtmlElement('ul', nameCategory, 'category_products');
+    categoryTitle.innerHTML = nameCategory;
+    catalog.appendChild(categoryTitle);
+    catalog.appendChild(category);
     for(const product of arrayProducts){
-        const card = createHtmlElement('li', product.title, null)
+        const card = createHtmlElement('li', product.title, null);
         category.appendChild(card);
     }
 }
