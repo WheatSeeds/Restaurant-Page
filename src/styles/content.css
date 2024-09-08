@@ -6,6 +6,16 @@
     justify-content: center;
 }
 .product{
-    background-color: black;
+    border: 1px solid black;
     border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.product > img{
+    height: 80%;
+    width: auto;
 }
