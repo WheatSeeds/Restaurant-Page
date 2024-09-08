@@ -1,5 +1,11 @@
 .category_products{
     display: grid;
     grid-template-columns: repeat(5, 250px);
-    grid-template-rows: repeat(1, 300px);
+    grid-template-rows: repeat(1, 350px);
+    column-gap: 15px;
+    justify-content: center;
+}
+.product{
+    background-color: black;
+    border-radius: 15px;
 }

@@ -8,14 +8,21 @@ content.appendChild(catalog);
 
 
 for (const [nameCategory, arrayProducts] of Object.entries(data)) {
+    const category = createHtmlElement('div', nameCategory, 'category');
+
     const categoryTitle = createHtmlElement('span', null, 'category_title');
-    const category = createHtmlElement('ul', nameCategory, 'category_products');
     categoryTitle.innerHTML = nameCategory;
-    catalog.appendChild(categoryTitle);
-    catalog.appendChild(category);
+    
+    const categoryProduct = createHtmlElement('ul', null, 'category_products');
+
+    catalog.appendChild(category)
+    category.appendChild(categoryTitle);
+    category.appendChild(categoryProduct);
+
+
     for(const product of arrayProducts){
-        const card = createHtmlElement('li', product.title, null);
-        category.appendChild(card);
+        const card = createHtmlElement('li', product.title, 'product');
+        categoryProduct.appendChild(card);
     }
 }
 
