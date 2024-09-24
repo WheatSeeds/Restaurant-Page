@@ -1,7 +1,6 @@
 import data from '../menuData.json'
 import createHtmlElement from './render';
 import '../styles/content.css'
-import image from '../Img/product photo/Vodka.jpg'
 
 const content = document.createElement('main');
 const catalog = createHtmlElement('div', 'catalog_grid', null)
@@ -10,7 +9,7 @@ content.appendChild(catalog);
 
 for (const [nameCategory, arrayProducts] of Object.entries(data)) {
     const category = createHtmlElement('div', nameCategory, 'category');
-    const categoryTitle = createHtmlElement('span', null, 'category_title');
+    const categoryTitle = createHtmlElement('h1', null, 'category_title');
     categoryTitle.innerHTML = nameCategory;
     const categoryProduct = createHtmlElement('ul', null, 'category_products');
 
@@ -20,16 +19,18 @@ for (const [nameCategory, arrayProducts] of Object.entries(data)) {
 
     for(const product of arrayProducts){
         const card = createHtmlElement('li', product.title, 'product');
-        const cardImg = createHtmlElement('img', null, 'productImg');
+        const cardImg = createHtmlElement('div', null, 'productImg');
+        const productImg = createHtmlElement('img', null, 'productImage')
         const cardTitle = createHtmlElement('span', null, 'productTitle');
         const cardPrice = createHtmlElement('span', null, 'productPrice');
 
-        cardImg.src = image;
+        productImg.src = 'src/Img/product photo/Vodka.jpg';
         cardTitle.innerHTML = product.title;
         cardPrice.innerHTML = product.price;
-
+        
 
         card.appendChild(cardImg);
+        cardImg.appendChild(productImg);
         card.appendChild(cardTitle);
         card.appendChild(cardPrice);
 
