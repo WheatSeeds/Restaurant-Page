@@ -8,12 +8,3 @@ ul{
 li{
     list-style-type: none;
 }
-main{
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    bottom: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

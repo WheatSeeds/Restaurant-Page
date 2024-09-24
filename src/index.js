@@ -1,15 +1,29 @@
-import header from './modules/header.js';
 import './styles/index.css'
-import homeContent from './modules/homeContent.js';
-import content from './modules/content.js';
 
-function render(){
-    document.body.appendChild(header);
+import header from './modules/header.js';
+import home from './modules/home.js';
+import menu from './modules/menu.js'
 
-    const main = document.createElement('main');
-    main.appendChild(homeContent);
-    document.body.appendChild(main);
+const pages = {home, menu};
 
+function render(currentPage){
+    document.body.innerHTML = ' ';
+    header();
+    addFuncNavButtons();
+    currentPage();
 }
 
-render();
+function addFuncNavButtons() {
+    const navButtons = document.querySelectorAll('.nav_button');
+    navButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const pages = { home, menu };
+            render(pages[button.id]);
+        });
+    });
+}
+
+render(menu );
+
+
+
