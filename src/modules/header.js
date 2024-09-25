@@ -3,7 +3,7 @@ import logoImg from '../Img/logo/logo.png';
 import createHtmlElement from './renderElems';
 
 const nav_options = [
-    {Name: 'Home', id: 'home'},
+    {Name: 'Home', id: 'homePage'},
     {Name: 'Menu', id: 'menu'},
     {Name: 'Contacts us', id: 'contacts_us'},
 ];
@@ -11,6 +11,7 @@ const nav_options = [
 function header(){
     const header = document.createElement('header')
     const logo = createHtmlElement('img', 'logo', null)
+    const nav =createHtmlElement('nav', 'nav_board', null)
 
     logo.src = logoImg;
     header.appendChild(logo);
@@ -18,9 +19,11 @@ function header(){
     nav_options.forEach((item) => {
         const option = createHtmlElement('button', item.id, 'nav_button');
         option.innerHTML = item.Name;
-        header.appendChild(option);
+        nav.appendChild(option);
         }
     );
+
+    header.appendChild(nav);
     document.body.appendChild(header);
 }
 

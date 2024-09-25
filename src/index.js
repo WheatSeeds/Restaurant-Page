@@ -1,10 +1,10 @@
 import './styles/index.css'
 
 import header from './modules/header.js';
-import home from './modules/home.js';
+import homePage from './modules/home.js';
 import menu from './modules/menu.js'
 
-const pages = {home, menu};
+const pages = {homePage, menu};
 
 function render(currentPage){
     document.body.innerHTML = ' ';
@@ -17,13 +17,12 @@ function addFuncNavButtons() {
     const navButtons = document.querySelectorAll('.nav_button');
     navButtons.forEach(button => {
         button.addEventListener('click', () => {
-            const pages = { home, menu };
             render(pages[button.id]);
         });
     });
 }
 
-render(menu );
+render(menu);
 
 
 

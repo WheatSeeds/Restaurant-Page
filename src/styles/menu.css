@@ -6,20 +6,19 @@
     justify-content: center;
 }
 
-.productImg{
+.product_image_wrap{
     height: 250px;
     width: 250px;
-    background-color: gray;
-    border-radius: 15px;
+    border: 1px solid black;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .productImage{
     height: 250px;
-    width: auto;
-    justify-content: center;
-    align-items: center;
 }
+
 .category{
     display: flex;
     flex-direction: column;
@@ -39,6 +38,7 @@
     font-size: 1.2rem;
 }
 #catalog_grid{
+    padding: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;

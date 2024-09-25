@@ -1,0 +1,36 @@
+#home{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../Img/bgHome/background_image_home_page4.jpg');
+    background-size: cover;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home_content{
+    text-shadow: 2px 2px 16px black;
+}
+#home_title{
+    font-size: 5em;
+}
+#home_description{
+    font-size: 1.5em;
+    width: 40%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#order_button{
+    border: 1px solid white;
+    background-color: rgb(0,0,0,80%);
+    width: 350px;
+    height: 80px;
+    color: white;
+    font-size: 1em;
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
