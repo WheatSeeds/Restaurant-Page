@@ -1,10 +1,15 @@
 import data from '../menuData.json'
 import createHtmlElement from './renderElems';
 import '../styles/menu.css';
-import image from '../Img/product photo/Beef Stroganoff.jpg'
 
+function importAllImages(r) {
+    let images = {};
+    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    return images;
+}
 
 function menu(){
+    const images = importAllImages(require.context('../Img/product photo/', false, /\.(png|jpe?g|svg)$/));
     const menuContent = document.createElement('main');
     const catalog = createHtmlElement('div', 'catalog_grid', null)
     menuContent.appendChild(catalog);
@@ -26,7 +31,8 @@ function menu(){
             const productImg = createHtmlElement('img', null, 'productImage')
             const productTitle = createHtmlElement('span', null, 'productTitle');
             const productPrice = createHtmlElement('span', null, 'productPrice');
-            productImg.src = image;
+
+            productImg.src = images[product.photo];
             productTitle.innerHTML = product.title;
             productPrice.innerHTML = product.price;
             
