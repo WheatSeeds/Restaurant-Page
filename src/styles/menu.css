@@ -4,6 +4,10 @@
     grid-template-rows: repeat(1, 350px);
     column-gap: 15px;
     justify-content: center;
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
 }
 
 .product_image_wrap{
@@ -13,18 +17,27 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .productImage{
-    height: 250px;
+    height: 230px;
 }
 
 .category{
     display: flex;
     flex-direction: column;
     width: max-content;
-
+    align-items: center;
 }
+.category_title{
+    font-size: 3em;
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
 .product{
     display: flex;
     flex-direction: column;
@@ -32,10 +45,10 @@
     
 }
 .productTitle{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 .productPrice{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 #catalog_grid{
     padding: 100px;

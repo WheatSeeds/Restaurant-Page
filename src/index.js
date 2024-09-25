@@ -22,7 +22,7 @@ function addFuncNavButtons() {
     });
 }
 
-render(menu);
+render(homePage);
 
 
 

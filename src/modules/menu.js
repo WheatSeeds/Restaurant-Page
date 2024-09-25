@@ -16,11 +16,12 @@ function menu(){
     
     for (const [nameCategory, arrayProducts] of Object.entries(data)) {
         const category = createHtmlElement('div', nameCategory, 'category');
-        const categoryTitle = createHtmlElement('h1', null, 'category_title');
+        const categoryTitle = createHtmlElement('span', null, 'category_title');
         categoryTitle.innerHTML = nameCategory;
 
         const categoryProducts = createHtmlElement('ul', null, 'category_products');
-    
+        const line = createHtmlElement('div', null, 'line');
+        
         catalog.appendChild(category)
         category.appendChild(categoryTitle);
         category.appendChild(categoryProducts);
@@ -31,6 +32,7 @@ function menu(){
             const productImg = createHtmlElement('img', null, 'productImage')
             const productTitle = createHtmlElement('span', null, 'productTitle');
             const productPrice = createHtmlElement('span', null, 'productPrice');
+
 
             productImg.src = images[product.photo];
             productTitle.innerHTML = product.title;

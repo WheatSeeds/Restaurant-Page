@@ -2,135 +2,135 @@
     "Meat":[
         {
             "title": "Beef Stroganoff",
-            "photo": "Beef Stroganoff.jpg",
+            "photo": "beef stroganoff.png",
             "price": "$22"
         },
         {
             "title": "Pork Shashlik",
-            "photo": "",
+            "photo": "pork shashlik.png",
             "price": "$20"
         },
         {
             "title": "Pelmeni",
-            "photo": "",
+            "photo": "pelmeni.png",
             "price": "$16"
         },
         {
             "title": "Chicken Kiev",
-            "photo": "",
+            "photo": "chicken kiev.png",
             "price": "$21"
         },
         {
             "title": "Veal Cutlet",
-            "photo": "",
+            "photo": "veal cutlet.png",
             "price": "$26"
         }
     ],
     "Soups":[
         {
             "title": "Borscht",
-            "photo": "",
+            "photo": "borscht.png",
             "price": "$15"
         },
         {
             "title": "Soljanka",
-            "photo": "",
+            "photo": "soljanka.png",
             "price": "$16"
         },
         {
             "title": "Ukha",
-            "photo": "",
+            "photo": "ukha.png",
             "price": "$17"
         },
         {
             "title": "Okroshka",
-            "photo": "",
+            "photo": "okroshka.png",
             "price": "$15"
         },
         {
             "title": "Rassolnik",
-            "photo": "",
+            "photo": "rassolnik.png",
             "price": "$16"
         }
     ],
     "Salads":[
         {
             "title": "Olivier Salad",
-            "photo": "",
+            "photo": "olivier salad.png",
             "price": "$12"
         },
         {
             "title": "Shuba",
-            "photo": "",
+            "photo": "shuba.png",
             "price": "$14"
         },
         {
             "title": "Vinaigrette",
-            "photo": "",
+            "photo": "vinaigrette.png",
             "price": "$11"
         },
         {
             "title": "Caesar Salad",
-            "photo": "",
+            "photo": "caesar salad.png",
             "price": "$16"
         },
         {
-            "title": "Salad with Smoked Salmon",
-            "photo": "",
+            "title": "Salad with Salmon",
+            "photo": "salad with smoked salmon.png",
             "price": "$18"
         }
     ],
     "Drinks":[
         {
             "title": "Kvas",
-            "photo": "",
+            "photo": "kvas.png",
             "price": "$6"
         },
         {
             "title": "Medovukha",
-            "photo": "",
+            "photo": "medovukha.png",
             "price": "$8"
         },
         {
             "title": "Vodka",
-            "photo": "",
+            "photo": "vodka.png",
             "price": "$30"
         },
         {
             "title": "Mors",
-            "photo": "",
+            "photo": "mors.png",
             "price": "$6"
         },
         {
             "title": "Black tea",
-            "photo": "",
+            "photo": "black tea.png",
             "price": "$5"
         }
     ],
     "Desserts":[
         {
             "title": "Blini",
-            "photo": "",
+            "photo": "blini.png",
             "price": "$12"
         },
         {
             "title": "Medovik",
-            "photo": "",
+            "photo": "medovik.png",
             "price": "$14"
         },
         {
             "title": "Syrniki",
-            "photo": "",
+            "photo": "syrniki.png",
             "price": "$11"
         },
         {
             "title": "Sharlotka",
-            "photo": "",
+            "photo": "sharlotka.png",
             "price": "$13"
         },
         {
             "title": "Cherry Vareniki",
-            "photo": "",
+            "photo": "cherry vareniki.png",
             "price": "$13"
         }
     ]
