@@ -19,11 +19,6 @@
             "title": "Chicken Kiev",
             "photo": "chicken kiev.png",
             "price": "$21"
-        },
-        {
-            "title": "Veal Cutlet",
-            "photo": "veal cutlet.png",
-            "price": "$26"
         }
     ],
     "Soups":[
@@ -46,11 +41,6 @@
             "title": "Okroshka",
             "photo": "okroshka.png",
             "price": "$15"
-        },
-        {
-            "title": "Rassolnik",
-            "photo": "rassolnik.png",
-            "price": "$16"
         }
     ],
     "Salads":[
@@ -73,11 +63,6 @@
             "title": "Caesar Salad",
             "photo": "caesar salad.png",
             "price": "$16"
-        },
-        {
-            "title": "Salad with Salmon",
-            "photo": "salad with smoked salmon.png",
-            "price": "$18"
         }
     ],
     "Drinks":[
@@ -85,11 +70,6 @@
             "title": "Kvas",
             "photo": "kvas.png",
             "price": "$6"
-        },
-        {
-            "title": "Medovukha",
-            "photo": "medovukha.png",
-            "price": "$8"
         },
         {
             "title": "Vodka",
@@ -117,11 +97,6 @@
             "title": "Medovik",
             "photo": "medovik.png",
             "price": "$14"
-        },
-        {
-            "title": "Syrniki",
-            "photo": "syrniki.png",
-            "price": "$11"
         },
         {
             "title": "Sharlotka",

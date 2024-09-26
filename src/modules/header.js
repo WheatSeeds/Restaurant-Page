@@ -4,8 +4,8 @@ import createHtmlElement from './renderElems';
 
 const nav_options = [
     {Name: 'Home', id: 'homePage'},
-    {Name: 'Menu', id: 'menu'},
-    {Name: 'Contacts us', id: 'contacts_us'},
+    {Name: 'Menu', id: 'menuPage'},
+    {Name: 'Contacts us', id: 'contactsPage'},
 ];
 
 function header(){

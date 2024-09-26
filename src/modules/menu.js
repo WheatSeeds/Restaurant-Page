@@ -8,7 +8,7 @@ function importAllImages(r) {
     return images;
 }
 
-function menu(){
+function menuPage(){
     const images = importAllImages(require.context('../Img/product photo/', false, /\.(png|jpe?g|svg)$/));
     const menuContent = document.createElement('main');
     const catalog = createHtmlElement('div', 'catalog_grid', null)
@@ -36,14 +36,13 @@ function menu(){
 
             productImg.src = images[product.photo];
             productTitle.innerHTML = product.title;
-            productPrice.innerHTML = product.price;
+            productPrice.innerHTML = `Price: ${product.price}`;
             
             productImgWrap.appendChild(productImg);
 
             productCard.appendChild(productImgWrap);
             productCard.appendChild(productTitle);
             productCard.appendChild(productPrice);
-    
             categoryProducts.appendChild(productCard);
         }
     }
@@ -51,4 +50,4 @@ function menu(){
 }
 
 
-export default menu;
+export default menuPage;
