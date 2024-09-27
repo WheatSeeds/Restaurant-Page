@@ -3,6 +3,7 @@
     width: 100%;
     background-image: url('../Img/bgHome/background_image_home_page4.jpg');
     background-size: cover;
+    background-position: bottom;
     color: white;
     font-size: 2em;
     display: flex;

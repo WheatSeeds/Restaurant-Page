@@ -4,6 +4,7 @@ import header from './modules/header.js';
 import homePage from './modules/home.js';
 import menuPage from './modules/menu.js'
 import contactsPage from './modules/contacts.js'
+import footer from './modules/footer.js'
 
 const pages = {homePage, menuPage, contactsPage};
 
@@ -12,6 +13,7 @@ function render(currentPage){
     header();
     addFuncNavButtons();
     currentPage();
+    footer();
 }
 
 function addFuncNavButtons() {
