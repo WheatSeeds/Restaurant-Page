@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     gap: 128px;
+    background-color: rgb(235, 235, 235);
 }
 #contact_page_info{
     display: flex;
@@ -16,13 +17,13 @@
     width: 30%;
 }
 .contact_page_title{
-    font-size: 5em;
+    font-size: 4em;
     font-family: "DM Serif Display", serif;
     font-weight: 400;
     font-style: normal;
 }
 .contact_page_info_desc{
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -39,28 +40,38 @@
     font-weight: 300;
     font-style: normal;
     color: white;
-    font-size: 1.4em;
+    font-size: 1em;
     background-color: black;
     border: none;
-    height: 72px;
+    height: 48px;
 }
 
 #contact_page_form_message{
-    font-size: 1.4em;
+    font-size: 1em;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
-    height: 200px;
+    height: 100px;
     box-sizing: border-box;
     resize: none;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid black;
 }
 
 #contact_page_form_name, #contact_page_form_email{
-    height: 72px;
+    height: 48px;
 }
 #contact_page_form > input{
-    font-size: 1.4em;
+    font-size: 1em;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid black;
+}
+
+#contact_page_content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }

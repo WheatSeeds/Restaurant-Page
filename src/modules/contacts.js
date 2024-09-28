@@ -9,7 +9,7 @@ const contactPageInfoData = [
 ]
 
 function createContactsPageInfo(){
-    const contactPageInfo = createHtmlElement('div', 'contact_page_info', null);
+    const contactPageInfo = createHtmlElement('div', 'contact_page_info', 'contact_page_block');
     
     contactPageInfoData.forEach((e) => {
         contactPageInfo.innerHTML += `
@@ -21,7 +21,7 @@ function createContactsPageInfo(){
 };
 
 function createContactsPageForm(){
-    const contactPageForm = createHtmlElement('form', 'contact_page_form', null);
+    const contactPageForm = createHtmlElement('form', 'contact_page_form', 'contact_page_block');
     const contactPageFormTitle = createHtmlElement('span', null, 'contact_page_title');
     contactPageFormTitle.innerHTML = 'Send Message ';
     contactPageForm.appendChild(contactPageFormTitle);
@@ -52,9 +52,10 @@ function createContactsPageForm(){
 
 function contactsPage(){
     const contactPage = createHtmlElement('main', 'contact_page', null);
-
-    contactPage.appendChild(createContactsPageInfo());
-    contactPage.appendChild(createContactsPageForm());
+    const contactPageContent = createHtmlElement('div', 'contact_page_content', null);
+    contactPage.appendChild(contactPageContent);
+    contactPageContent.appendChild(createContactsPageInfo());
+    contactPageContent.appendChild(createContactsPageForm());
 
     document.body.appendChild(contactPage);
 };
