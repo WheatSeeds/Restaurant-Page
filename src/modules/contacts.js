@@ -2,7 +2,7 @@ import '../styles/contact.css'
 import createHtmlElement from './renderElems';
 
 const contactPageInfoData = [
-    {title: 'Contact Us!', description: `Have questions or want to place an order? 
+    {title: `Contact Us!`, description: `Have questions or want to place an order? 
     Reach out to us via email or on social media. We're excited to assist you!`},
     {title: 'Email', description: `georg23kuz@gmail.com` },
     {title: 'Socials', description: `Nothing`},
@@ -12,14 +12,10 @@ function createContactsPageInfo(){
     const contactPageInfo = createHtmlElement('div', 'contact_page_info', null);
     
     contactPageInfoData.forEach((e) => {
-        const Title = createHtmlElement('span', null, 'contact_page_title');
-        const Desc = createHtmlElement('span', null, 'contact_page_info_desc');
-        
-        Title.innerHTML = e.title;
-        Desc.innerHTML = e.description;
-        
-        contactPageInfo.appendChild(Title);
-        contactPageInfo.appendChild(Desc);
+        contactPageInfo.innerHTML += `
+            <span class = 'contact_page_title'>${e.title}</span>
+            <span class = 'contact_page_info_desc'>${e.description}</span>
+        `;
     });
     return contactPageInfo;
 };

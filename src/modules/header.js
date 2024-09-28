@@ -11,14 +11,13 @@ const nav_options = [
 function header(){
     const header = document.createElement('header')
     const logo = createHtmlElement('img', 'logo', null)
-    const nav =createHtmlElement('nav', 'nav_board', null)
-
+    const nav = createHtmlElement('nav', 'nav_board', null)
     logo.src = logoImg;
     header.appendChild(logo);
         
     nav_options.forEach((item) => {
         const option = createHtmlElement('button', item.id, 'nav_button');
-        option.innerHTML = item.Name;
+        option.textContent = item.Name;
         nav.appendChild(option);
         }
     );
