@@ -75,3 +75,7 @@
     justify-content: center;
     gap: 50px;
 }
+.contact_page_info_block{
+    display: flex;
+    flex-direction: column;
+}

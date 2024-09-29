@@ -13,8 +13,10 @@ function createContactsPageInfo(){
     
     contactPageInfoData.forEach((e) => {
         contactPageInfo.innerHTML += `
-            <span class = 'contact_page_title'>${e.title}</span>
-            <span class = 'contact_page_info_desc'>${e.description}</span>
+            <div class='contact_page_info_block'>
+                <span class = 'contact_page_title'>${e.title}</span>
+                <span class = 'contact_page_info_desc'>${e.description}</span>
+            </div>
         `;
     });
     return contactPageInfo;
