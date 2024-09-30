@@ -26,3 +26,28 @@ header{
     font-style: normal;
     cursor: pointer;
 }
+@media (max-width: 600px){
+    #logo{
+        height: 32px;
+        padding-left: 16px;
+    }
+    #nav_board{
+        padding-right: 16px;
+        display: flex;
+        gap: 16px;
+    }
+}
+@media (max-width: 400px){
+    #logo{
+        height: 32px;
+        padding-left: 8px;
+    }
+    #nav_board{
+        padding-right: 8px;
+        display: flex;
+        gap: 8px;
+    }
+    .nav_button{
+        font-size: 1em;
+    }
+}

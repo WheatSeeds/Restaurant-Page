@@ -1,4 +1,3 @@
-import bgImage from '../Img/bgHome/background_image_home_page.jpg'
 import createHtmlElement from './renderElems';
 import '../styles/home.css'
 
@@ -17,7 +16,6 @@ function homePage(){
     const home = createHtmlElement('div', 'home', null);
     main.appendChild(home);
 
-    home.src = bgImage;
     const homeTitle = createHtmlElement('span', 'home_title', 'home_content');
     homeTitle.innerHTML = homePageData.title;
     const homeDescription = createHtmlElement('span', 'home_description', 'home_content');

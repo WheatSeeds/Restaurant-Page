@@ -1,6 +1,6 @@
 #contact_page{
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +10,9 @@
 #contact_page_info{
     display: flex;
     flex-direction: column;
-    width: 30%;
     height: max-content;
 }
-#contact_page_form{
+.contact_page_block{
     width: 30%;
 }
 .contact_page_title{
@@ -78,4 +77,27 @@
 .contact_page_info_block{
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 1300px){
+    .contact_page_title{
+        font-size: 3.1em;
+    }
+    .contact_page_block{
+        width: 40%;
+    }
+}
+@media (max-width: 1000px){
+    #contact_page{
+        height: max-content;
+        padding: 10% 0;
+    }
+    #contact_page_content{
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+    }
+    .contact_page_block{
+        width: 80%;
+    }
 }

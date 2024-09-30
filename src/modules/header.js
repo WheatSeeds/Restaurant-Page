@@ -9,9 +9,9 @@ const nav_options = [
 ];
 
 function header(){
-    const header = document.createElement('header')
-    const logo = createHtmlElement('img', 'logo', null)
-    const nav = createHtmlElement('nav', 'nav_board', null)
+    const header = document.createElement('header');
+    const logo = createHtmlElement('img', 'logo', null);
+    const nav = createHtmlElement('nav', 'nav_board', null);
     logo.src = logoImg;
     header.appendChild(logo);
         
