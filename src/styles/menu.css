@@ -73,7 +73,7 @@
     z-index: 0;
     opacity: .3;
     top: 1000px;
-    left: 60%;
+    left: 70%;
 }
 
 .bat_two_animation{
@@ -91,7 +91,7 @@
 @keyframes bat_two{
     100%{
         top: 1000px;
-        left: 70%;
+        left: 60%;
     }
 }
 @media (min-width: 1400px){
